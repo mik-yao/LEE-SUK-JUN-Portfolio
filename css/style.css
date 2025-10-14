@@ -374,7 +374,7 @@ header {
 nav ul {
     position: absolute;
     /* 독립시킴 */
-    top: 670px;
+    top: 750px;
     /* 위에서 내려오기 */
     left: 50%;
     /* 가운데 기준 */
@@ -409,9 +409,9 @@ nav li a {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #000000;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    padding: 0 15px;
+    padding: 0 10px;
     font-family: 'Sweet';
 }
 
@@ -420,7 +420,7 @@ nav li a {
 }
 
 .bg-nav ul {
-    padding: 15px 0px;
+    padding: 15px 0;
     background-color: #479352ce;
 }
 
@@ -1277,6 +1277,30 @@ a.active {
     }
 }
 
+/* 태블릿 ~ 모바일 nav 반응형 */
+@media (max-width: 789px) {
+    nav ul {
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 90%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 4px;
+    }
+
+    nav li a {
+        font-size: 10px;
+    }
+}
+
+
 @media (max-width: 425px) {
     nav ul {
         padding: 20px 0px;
@@ -2103,4 +2127,4 @@ a.active {
     .popup .ion-close-round {
         display: none;
     }
-} 
+}
