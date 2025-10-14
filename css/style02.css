@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* 컨테이너 */
+#bibx_box {
+    width: 100%;
+    max-width: 1320px;
+    /* 원래 이미지 기준 최대 너비 */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 이미지 */
+
+#bibx_box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.219);
+}
+
+/* 반응형: 태블릿 */
+@media (max-width: 1024px) {
+    #bibx_box {
+        padding: 0 15px;
+    }
+}
+
+/* 반응형: 모바일 */
+@media (max-width: 600px) {
+    #bibx_box {
+        padding: 0 10px;
+    }
+}

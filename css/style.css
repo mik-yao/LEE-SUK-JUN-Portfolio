@@ -374,7 +374,7 @@ header {
 nav ul {
     position: absolute;
     /* 독립시킴 */
-    top: 750px;
+    top: 700px;
     /* 위에서 내려오기 */
     left: 50%;
     /* 가운데 기준 */
@@ -1279,7 +1279,7 @@ a.active {
 
 @media (max-width: 425px) {
     nav ul {
-        padding: 20px 0;
+        padding: 20px 0px;
     }
 
     nav li {
