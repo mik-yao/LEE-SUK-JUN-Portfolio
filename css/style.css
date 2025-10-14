@@ -374,7 +374,7 @@ header {
 nav ul {
     position: absolute;
     /* 독립시킴 */
-    top: 700px;
+    top: 670px;
     /* 위에서 내려오기 */
     left: 50%;
     /* 가운데 기준 */
@@ -383,7 +383,7 @@ nav ul {
     display: inline-block;
     padding-left: 0;
     list-style: none;
-    padding: 20px;
+    padding: 15px;
     margin: 0;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -409,9 +409,9 @@ nav li a {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #000000;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
-    padding: 0 20px;
+    padding: 0 15px;
     font-family: 'Sweet';
 }
 
@@ -420,7 +420,7 @@ nav li a {
 }
 
 .bg-nav ul {
-    padding: 10px 0px;
+    padding: 15px 0px;
     background-color: #479352ce;
 }
 
