@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fed72e;
+}
+
+/* 컨테이너 */
+#dongsang {
+    /* width: 100%; */
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dongsang img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.199);
+}
+
+/* 토글 버튼 */
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #ed7124;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+#scrollTopBtn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* 반응형: 태블릿 */
+@media (max-width: 1024px) {
+
+    #scrollTopBtn {
+        bottom: 30px;
+        right: 30px;
+        width: 44px;
+        height: 44px;
+        font-size: 22px;
+    }
+
+    #dongsang {
+        padding: 0 15px;
+    }
+}
+
+/* 반응형: 모바일 */
+@media (max-width: 600px) {
+    #dongsang {
+        padding: 0 10px;
+    }
+
+    #scrollTopBtn {
+        bottom: 25px;
+        right: 25px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}

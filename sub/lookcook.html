@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOK COOK</title>
+    <link rel="stylesheet" href="../css/style05.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/Favicon.png">
+</head>
+<body>
+
+        <div id="lookcook">
+
+        <img src="../img/lookcook.png" alt="lookcook">
+
+    </div>
+
+    <button id="scrollTopBtn" title="Go to top">↑</button>
+
+    <!-- 스크립트 -->
+
+    <script>
+  // 버튼 요소 가져오기
+  const scrollBtn = document.getElementById("scrollTopBtn");
+
+  // 스크롤 시 버튼 표시/숨김
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      scrollBtn.style.display = "block";
+    } else {
+      scrollBtn.style.display = "none";
+    }
+  });
+
+  // 버튼 클릭 시 상단으로 부드럽게 이동
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+    
+</body>
+</html>
