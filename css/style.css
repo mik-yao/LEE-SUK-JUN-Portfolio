@@ -110,11 +110,18 @@ body {
 }
 
 .text_aboutme {
-    font-family: 'Escoredream';
+    font-family: 'Suit';
     font-weight: 300;
     font-display: swap;
-    font-size: 14px;
+    font-size: 15px;
     color: #222;
+}
+
+@font-face {
+    font-family: 'Suit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
 }
 
 @font-face {
@@ -132,10 +139,10 @@ body {
 }
 
 .project_text {
-    font-family: 'Escoredream';
+    font-family: 'Suit';
     font-weight: 300;
     color: #Fff;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .text_b {
@@ -1344,7 +1351,7 @@ a.active {
         transform: translateX(0);
     }
 
-    
+
 }
 
 /* 화면이 모바일에서 줄더들때, 영상의 이미지가 가운데로 보이게 하기위한 설정임 */
@@ -1363,11 +1370,11 @@ a.active {
 }
 
 .lefttext {
-    font-family: 'Escoredream';
+    font-family: 'Suit';
     font-weight: 300;
     text-align: center;
     color: #fff;
-    font-size: 12px !important;
+    font-size: 15px !important;
     margin-right: 10px;
     margin-bottom: 70px;
 }
